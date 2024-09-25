@@ -1,0 +1,29 @@
+interface StorageDevice {
+    String readData();
+}
+
+class HardDrive implements StorageDevice {
+    @Override
+    public String readData() {
+        return "Data from Hard Drive";
+    }
+}
+
+class SSD implements StorageDevice {
+    @Override
+    public String readData() {
+        return "Data from SSD";
+    }
+}
+
+class Computer {
+    private StorageDevice storageDevice;
+
+    public Computer(StorageDevice storage) {
+        this.storageDevice = storage;
+    }
+
+    public String getData() {
+        return storageDevice.readData();
+    }
+}
