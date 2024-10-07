@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment2.Bridge;
 
 // Класс для связи документа с движком рендеринга
 public abstract class DocumentRenderer {
@@ -8,7 +8,6 @@ public abstract class DocumentRenderer {
         this.engine = engine;
     }
 
-    // TODO: Реализовать метод для рендеринга документа
     public abstract void render(String content);
 }
 

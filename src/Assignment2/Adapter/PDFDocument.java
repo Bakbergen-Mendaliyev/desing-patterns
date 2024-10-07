@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment2.Adapter;
 
 // Представляет сторонний формат PDF документа
 public class PDFDocument {
@@ -8,12 +8,10 @@ public class PDFDocument {
         this.fileName = fileName;
     }
 
-    // TODO: Открыть PDF документ
     public void openPDF() {
         System.out.println("Opening PDF document: " + fileName);
     }
 
-    // TODO: Показать содержимое PDF документа
     public void showPDF() {
         System.out.println("Displaying PDF content: " + fileName);
     }

@@ -1,4 +1,6 @@
-package Assignment2;
+package Assignment2.Composite;
+
+import Assignment2.Document;
 
 import java.util.ArrayList;
 import java.util.List;

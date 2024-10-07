@@ -1,4 +1,4 @@
-package Assignment2;
+package Assignment2.Bridge;
 
 // ЗАДАНИЕ: Реализовать рендеринг документа через выбранный движок
 public class SimpleDocumentRenderer extends DocumentRenderer {
@@ -6,9 +6,9 @@ public class SimpleDocumentRenderer extends DocumentRenderer {
         super(engine);
     }
 
+    //Задача: Реализуйте вызов метода рендеринга документа через переданный движок (например, SimpleRenderEngine или HighlightRenderEngine).
     @Override
     public void render(String content) {
-        // TODO: Вызвать рендеринг через движок
         engine.render(content);
     }
 }

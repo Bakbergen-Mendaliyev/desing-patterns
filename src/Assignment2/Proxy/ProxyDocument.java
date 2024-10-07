@@ -1,4 +1,7 @@
-package Assignment2;
+package Assignment2.Proxy;
+
+import Assignment2.Document;
+import Assignment2.RealDocument;
 
 // Proxy для ленивой загрузки документа
 public class ProxyDocument implements Document {

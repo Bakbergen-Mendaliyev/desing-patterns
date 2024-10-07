@@ -1,4 +1,7 @@
-package Assignment2;
+package Assignment2.Flyweight;
+
+import Assignment2.Document;
+import Assignment2.Proxy.ProxyDocument;
 
 import java.util.HashMap;
 import java.util.Map;
