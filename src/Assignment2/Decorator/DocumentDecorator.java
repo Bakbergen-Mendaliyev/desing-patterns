@@ -1,4 +1,6 @@
-package Assignment2;
+package Assignment2.Decorator;
+
+import Assignment2.Document;
 
 // Абстрактный декоратор для добавления функциональности документам
 public abstract class DocumentDecorator implements Document {
@@ -10,7 +12,6 @@ public abstract class DocumentDecorator implements Document {
 
     @Override
     public void display() {
-        // TODO: Отобразить базовый документ
         decoratedDocument.display();
     }
 }
